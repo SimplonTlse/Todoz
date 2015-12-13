@@ -52,3 +52,15 @@
 [submodule "todoz/semere"]
 	path = todoz/semere
 	url = https://github.com/BINSEM/jquery-exercice.git
+[submodule "todoz/alice"]
+	path = todoz/alice
+	url = https://github.com/alicejeanblanc/To_do_list.git
+[submodule "todoz/hayate"]
+	path = todoz/hayate
+	url = https://github.com/Flyette/todos.git
+[submodule "todoz/jerome"]
+	path = todoz/jerome
+	url = https://github.com/JeromeMouly/ToDo
+[submodule "todoz/nicolas"]
+	path = todoz/nicolas
+	url = https://github.com/nicolassanpedro/ExercicesSimplon.git

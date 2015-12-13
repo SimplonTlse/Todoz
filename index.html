@@ -15,8 +15,9 @@
             display:flex;
             
         }
-        a:link {
+        a:link, a:visited {
             color:#FFEBEE;
+	    text-decoration:none;
         }
         ul {
              list-style:none;   
@@ -27,6 +28,9 @@
         iframe {
             flex:1;
         }
+	.current {
+	   text-shadow:1px 1px 1px #333; 
+	}
         
     </style>
 </head>
@@ -50,12 +54,14 @@
             <li><a href="todoz/louis/20151207/">Louis</a></li>
             <li><a href="todoz/nicolas/7122015/">Nicolas</a></li>
             <li><a href="todoz/anis/20151207/Projet/todoMVC">Anis</a></li>
-            <li><a href="todoz/alice/">Alice (repo vide!)</a></li>
+            <li><a href="todoz/alice/Projet/Todo">Alice</a></li>
             <li><a href="todoz/samar/">Samar</a></li>
             <li><a href="todoz/karine/todo/">Karine</a></li>
             <li><a href="todoz/sebastien/07122015/projet/todo/">Sébastien</a></li>
             <li><a href="todoz/raphael/">Raphael</a></li>
             <li><a href="todoz/semere/">Semere</a></li>
+            <li><a href="todoz/hayate/">Hayate</a></li>
+            <li><a href="todoz/jerome/">Jerome</a></li>
         </ul>
     </aside>
     <iframe src="https://github.com/SimplonTlse/Todoz" frameborder="0"></iframe>
@@ -65,6 +71,11 @@
         for(var i=0,len=items.length;len>i;i++) {
             items[i].addEventListener('click', function(e){
                 e.preventDefault();
+                var curr = document.querySelector('.current');
+		if(curr){
+			curr.classList.remove('current');
+		}
+		this.classList.add('current');
                 iframe.setAttribute('src', this.getAttribute('href'))
             });
         }
