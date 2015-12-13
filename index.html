@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Your todoz</title>
+    <style type="text/css">
+    html,body, iframe {
+        height:100%;
+        padding:0;
+        margin:0;
+    }
+        body {
+            background-color: #EF9A9A;
+            color:#FFEBEE;
+            display:flex;
+            
+        }
+        a:link {
+            color:#FFEBEE;
+        }
+        ul {
+             list-style:none;   
+        }
+        aside {
+            width:250px;
+        }
+        iframe {
+            flex:1;
+        }
+        
+    </style>
+</head>
+<body>
+    <aside>
+        
+        <h1>Your todoz</h1>
+        
+        <ul id="ppl">
+            <li><a href="todoz/andrea/">Andrea</a></li>
+            <li><a href="todoz/mehdi/">Mehdi</a></li>
+            <li><a href="todoz/floriane/To%20Do/">Floriane</a></li>
+            <li><a href="todoz/allan/ToDo/">Allan</a></li>
+            <li><a href="todoz/marie/">Marie</a></li>
+            <li><a href="todoz/justin/">Justin</a></li>
+            <li><a href="todoz/benjamin/">Benjamin</a></li>
+            <li><a href="todoz/thomasb/todo/">Thomas B.</a></li>
+            <li><a href="todoz/herve/todo/">Hervé</a></li>
+            <li><a href="todoz/robin/">Robin</a></li>
+            <li><a href="todoz/oriane/todo">Oriane</a></li>
+            <li><a href="todoz/louis/20151207/">Louis</a></li>
+            <li><a href="todoz/nicolas/7122015/">Nicolas</a></li>
+            <li><a href="todoz/anis/20151207/Projet/todoMVC">Anis</a></li>
+            <li><a href="todoz/alice/">Alice (repo vide!)</a></li>
+            <li><a href="todoz/samar/">Samar</a></li>
+            <li><a href="todoz/karine/todo/">Karine</a></li>
+            <li><a href="todoz/sebastien/07122015/projet/todo/">Sébastien</a></li>
+            <li><a href="todoz/raphael/">Raphael</a></li>
+            <li><a href="todoz/semere/">Semere</a></li>
+        </ul>
+    </aside>
+    <iframe src="https://github.com/SimplonTlse/Todoz" frameborder="0"></iframe>
+    <script type="text/javascript">
+        var items = document.querySelectorAll('#ppl a');
+        var iframe = document.querySelector('iframe');
+        for(var i=0,len=items.length;len>i;i++) {
+            items[i].addEventListener('click', function(e){
+                e.preventDefault();
+                iframe.setAttribute('src', this.getAttribute('href'))
+            });
+        }
+    </script>
+</body>
+</html>

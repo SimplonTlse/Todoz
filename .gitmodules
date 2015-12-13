@@ -1,0 +1,54 @@
+[submodule "todoz/andrea"]
+	path = todoz/andrea
+	url = https://github.com/AmbreB/ToDoList.git
+[submodule "todoz/mehdi"]
+	path = todoz/mehdi
+	url = https://github.com/MehdiHenna/tudo.git
+[submodule "todoz/floriane"]
+	path = todoz/floriane
+	url = https://github.com/milkae/To-do
+[submodule "todoz/allan"]
+	path = todoz/allan
+	url = https://github.com/AllanCerveaux/Todo-list
+[submodule "todoz/marie"]
+	path = todoz/marie
+	url = https://github.com/MarieSochala/ToDoList
+[submodule "todoz/justin"]
+	path = todoz/justin
+	url = https://github.com/Jchaikhi/ToDo.git
+[submodule "todoz/benjamin"]
+	path = todoz/benjamin
+	url = https://github.com/bingoooo/ToDo-App.git
+[submodule "todoz/thomasb"]
+	path = todoz/thomasb
+	url = https://github.com/nemo75/Simplon
+[submodule "todoz/herve"]
+	path = todoz/herve
+	url = https://github.com/ppherve/todos
+[submodule "todoz/robin"]
+	path = todoz/robin
+	url = https://github.com/Floune/ToDo-List.git
+[submodule "todoz/oriane"]
+	path = todoz/oriane
+	url = https://github.com/orianemv/to-do-liste
+[submodule "todoz/louis"]
+	path = todoz/louis
+	url = https://github.com/Yologram/Tout-Doux.git
+[submodule "todoz/anis"]
+	path = todoz/anis
+	url = https://github.com/medanisL/Exercices
+[submodule "todoz/samar"]
+	path = todoz/samar
+	url = https://github.com/ali-samar/To-Do-List
+[submodule "todoz/karine"]
+	path = todoz/karine
+	url = https://github.com/karineanna/todolist-vanillajs.git
+[submodule "todoz/sebastien"]
+	path = todoz/sebastien
+	url = https://github.com/baba33800/exercices/
+[submodule "todoz/raphael"]
+	path = todoz/raphael
+	url = https://github.com/raphael842/Todo-list.git
+[submodule "todoz/semere"]
+	path = todoz/semere
+	url = https://github.com/BINSEM/jquery-exercice.git
